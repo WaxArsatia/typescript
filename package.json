@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "npx tsc && node --es-module-specifier-resolution=node dist/index.js"
+    "start": "(tsc || npx tsc) && node --es-module-specifier-resolution=node dist/index.js"
   },
   "author": "WaxArsatia",
   "dependencies": {
